@@ -1,6 +1,7 @@
 function Skills() {
     return (
-<div className="skills container">
+        <section id="about" className="about" style={{ marginLeft: '20pt' }}>
+        <div className="skills container">
       <div className="section-title">
         <h2>Skills</h2>
       </div>
@@ -47,6 +48,7 @@ function Skills() {
         </ul>
       </div>
     </div>
+    </section>
     );
 }
 export default Skills;

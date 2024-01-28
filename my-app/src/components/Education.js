@@ -1,6 +1,7 @@
 function Education() {
     return (
-        <div>
+      <section id="hobbies" className="hobbies" style={{ marginLeft: '20pt' }}>
+      <div>
       <div className="section-title">
         <h2>Education</h2>
       </div>
@@ -37,6 +38,7 @@ function Education() {
         </div>
       </div>
     </div>
+    </section>
     );
 }
 export default Education;

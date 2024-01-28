@@ -1,5 +1,6 @@
 function Hobbies() {
     return (
+        <section id="about" className="about" style={{ marginLeft: '20pt' }}>
         <div className="interests container">
       <div className="section-title">
         <h2>Hobbies</h2>
@@ -35,6 +36,7 @@ function Hobbies() {
         </div>
       </div>
     </div>
+    </section>
     );
 }
 export default Hobbies;
