@@ -9,7 +9,7 @@ function About() {
         <div className="row">
           <div className="cont">
             <div className="box1">
-              <img src="assets/img/unika.jpg" alt="" />
+              <img src="/unika.jpg" alt="" />
             </div>
             <div className="box2">
               <div className="row">

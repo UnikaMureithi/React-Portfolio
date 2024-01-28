@@ -15,8 +15,8 @@ function Header() {
                 <h1 style={{ marginLeft: '20pt', color: 'white' }}>Welcome to my Portfolio!</h1>
             </div>
   
-            <div class="rounded-image" style={{ float: 'right' }}>
-                <img src="media/unika.jpg" alt="" />
+            <div className="rounded-image" style={{ float: 'right' }}>
+              <img src="/unika.jpg" alt="" />
             </div>
     
             <h2 style={{ marginLeft: '20pt' }}><span>
