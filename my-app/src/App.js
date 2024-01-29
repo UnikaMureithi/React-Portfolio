@@ -9,6 +9,8 @@ import Hobbies from './components/Hobbies';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Jokes from './components/Jokes';
+
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
     <Education/>
     <Projects/>
     <Contact/>
+    <Jokes/>
+
   </div>
 
   );
