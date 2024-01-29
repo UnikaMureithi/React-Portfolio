@@ -24,7 +24,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #5f5f5f; */
 }
 
 li {
@@ -45,6 +44,54 @@ li a:hover {
 
 .active {
   background-color: #960284;
+}
+
+/* Basic styling for the navbar */
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Keep the existing styling for ul */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Keep the existing styling for li */
+.navbar li {
+  float: left;
+}
+
+/* Update the styling for the navbar links */
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+/* Change link color on hover */
+.navbar li a:hover {
+  background-color: #272626;
+}
+
+/* Keep the existing styling for the active link */
+.navbar .active {
+  background-color: #960284;
+  font-weight: bold;
 }
 
 
@@ -146,8 +193,8 @@ section .container {
 }
 
 .rounded-image {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;

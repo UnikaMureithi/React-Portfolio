@@ -1,5 +1,7 @@
 function Header() {
     return (
+      <header id="header" class="header-tops">
+
         <div class="container">
            
           <nav class="navbar" id="navbar">
@@ -32,6 +34,7 @@ function Header() {
           </span> </h2>
   
         </div>
+      </header>
       );
 }
 export default Header;
