@@ -18,7 +18,7 @@ function Header() {
             </div>
   
             <div className="rounded-image" style={{ float: 'right' }}>
-              <img src="/unika.jpg" alt="" />
+              <img src="/React-Portfolio/unika.jpg" alt="" />
             </div>
     
             <h2 style={{ marginLeft: '20pt' }}><span>

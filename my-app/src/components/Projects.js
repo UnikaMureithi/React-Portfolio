@@ -4,7 +4,7 @@ function Projects() {
       <div className="container">
         <div className="section-title">
           <div>
-            <img src="/projects.png" alt="" width="160" height="160" style={{ float: 'right' }} />
+            <img src="/React-Portfolio/projects.png" alt="" width="160" height="160" style={{ float: 'right' }} />
           </div>
           <h2>My Projects</h2>
           <h3>Quick Tibabu Web Application:</h3>
