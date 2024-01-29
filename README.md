@@ -1,4 +1,6 @@
 # React-Portfolio
+Find the deployed link to the Portfolio website [here](https://unikamureithi.github.io/Portfolio-New-/)
+
 # Questions and Answers:
 ### 1. What is NPM?
 NPM stands for "Node Package Manager." It is the default package manager for JavaScript runtime environment Node.js. NPM is used to install, share, and manage packages or modules of JavaScript code written by other developers. These packages may contain libraries, tools, frameworks, and other code that can be easily integrated into certain projects.
