@@ -9,7 +9,7 @@ A single page application (SPA) is a website or web application that dynamically
 ### 3. What is the event loop?
  The event loop continually scans for completed tasks, called events, and directs the program to handle them, allowing applications to run smoothly without waiting for each operation to finish before moving on to the next.
  
-### 4. What is the difference between export x and export default x? How do you import them differently?
+### 4. What is the difference between ```export x``` and ```export default x```? How do you import them differently?
 ```export x```
 This syntax is used to export a specific variable, function, or class with a given name from a module. When you use export x, you can later import that specific export by name in another module.
 ```export default x```
@@ -19,7 +19,7 @@ Difference with import:
 For named exports (using ```export x```), you use curly braces {} in the import statement to specify the names you want to import.
 For the default export (using ```export default x```), you can choose any name for the imported value in the import statement. It doesn't need to match the name used in the export statement.
 
-### 5. Why do you use className as a property in React and not class?
+### 5. Why do you use ```className``` as a property in React and not ```class```?
 The reason behind the fact that it uses className over class is that the class is a reserved keyword in JavaScript and since we use JSX in React which itself is the extension of JavaScript, so we have to use className instead of class attribute.
 
 ### 6. Why should you not write the following? What will happen? 
@@ -29,7 +29,7 @@ To handle click events correctly in React, you should pass a function reference 
 This is the correct syntax:
 ```<button onClick={() => setCounter(counter + 1)}> +1 </button>```
 
-### 7. What is object deconstruction and how is it connected to React components (example)?
+### 7. What is ```object deconstruction``` and how is it connected to React components (example)?
 Object destructuring is a feature in JavaScript that allows you to extract properties from objects and bind them to variables with the same name. It provides a concise syntax for extracting values from objects and can make code more readable and expressive.
 In the context of React components, object destructuring is often used to extract props or state properties, making it easier to work with the data passed down to a component.
 For example:
@@ -53,7 +53,7 @@ console.log(age);       // Output: 30
 ### 8. How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
 This is made possible by JSX , which is a syntax extension for JavaScript that looks similar to XML or HTML. JSX allows you to write declarative UI code in a way that closely resembles HTML while still being valid JavaScript. 
 
-### 9. What is async/await? Bring an example
+### 9. What is ```async/await```? Bring an example
 async/await is a feature in JavaScript that simplifies working with asynchronous code. It provides a more readable and concise way to handle promises, making asynchronous programming more like to traditional synchronous programming. For example:
 ```async function fetchData() {
   try {
@@ -66,7 +66,7 @@ async/await is a feature in JavaScript that simplifies working with asynchronous
 }
 ```
 
-### 10. What is a Promise? Bring an example
+### 10. What is a ```Promise```? Bring an example
 In JavaScript, a Promise is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value. For example:
 let myPromise = new Promise(function(myResolve, myReject) {
 ```// "Producing Code" (May take some time)
