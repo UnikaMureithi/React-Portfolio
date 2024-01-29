@@ -239,7 +239,7 @@ section .container {
   box-sizing: border-box;
 }
 
-p {
+/* p {
   font-size: 31px;
 }
 
@@ -257,4 +257,4 @@ h2{
 
 h3{
   font-size: 24px;
-}
+} */
