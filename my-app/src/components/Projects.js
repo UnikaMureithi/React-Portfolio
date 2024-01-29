@@ -16,11 +16,11 @@ function Projects() {
             </p>
             <ul>
               <li>Carrying out requirements engineering using information from various individuals.</li>
-              <br />
+              <br /><br />
               <li>Design and analysis using Lucid charts.</li>
-              <br />
+              <br /><br />
               <li>Coding and Implementation using Laravel framework and web development languages.</li>
-              <br />
+              <br /><br />
               <li>Testing the system.</li>
             </ul>
             <br />

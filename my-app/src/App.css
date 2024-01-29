@@ -20,7 +20,7 @@ body::before {
 
 
 ul {
-  list-style-type: none;
+  list-style-type:square;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -75,7 +75,7 @@ li a:hover {
   padding: 14px 16px;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   scroll-behavior: smooth;
 }

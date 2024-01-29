@@ -1,6 +1,6 @@
 function Education() {
     return (
-      <section id="hobbies" className="hobbies" style={{ marginLeft: '20pt' }}>
+      <section className="container" style={{ marginLeft: '20pt' }}>
       <div>
       <div className="section-title">
         <h2>Education</h2>
@@ -8,7 +8,7 @@ function Education() {
 
       <div>
         <p className="edu">
-          During my time at Strathmore University, I have maintained a high average grade of 74% and I am
+          During my time at Strathmore University, I have maintained a high average grade and I am
           on track for first class honors once I graduate. I was also included in the Dean’s list after
           completing my first, second and third years. Additionally, I have completed school projects and
           assignments that have helped me develop my programming and web design skills.
