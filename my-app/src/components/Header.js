@@ -27,8 +27,8 @@ function Header() {
           <br />Some of my strengths are good interpersonal communication,
           <br />critical thinking, and adaptability.
           <br />I am looking to leverage the various skills I have acquired to apply as an 
-          active student, to assist future organizations in achieving their objectives
-          and overall mission. Highly motivated and capable of productive self-management
+          <br />active student, to assist future organizations in achieving their objectives
+          <br />and overall mission. Highly motivated and capable of productive self-management
           in solitary projects and effective team collaboration.
           </p>
           </span> </h2>

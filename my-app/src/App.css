@@ -28,6 +28,7 @@ ul {
 
 li {
   float: left;
+  font-size: 20px;
 }
 
 li a {
@@ -46,7 +47,6 @@ li a:hover {
   background-color: #960284;
 }
 
-/* Basic styling for the navbar */
 .navbar {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px 20px;
@@ -57,7 +57,6 @@ li a:hover {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Keep the existing styling for ul */
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -65,12 +64,10 @@ li a:hover {
   overflow: hidden;
 }
 
-/* Keep the existing styling for li */
 .navbar li {
   float: left;
 }
 
-/* Update the styling for the navbar links */
 .navbar li a {
   display: block;
   color: white;
@@ -83,12 +80,10 @@ li a:hover {
   scroll-behavior: smooth;
 }
 
-/* Change link color on hover */
 .navbar li a:hover {
   background-color: #272626;
 }
 
-/* Keep the existing styling for the active link */
 .navbar .active {
   background-color: #960284;
   font-weight: bold;
@@ -145,7 +140,7 @@ li a:hover {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -178,7 +173,7 @@ section .container {
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 23px;
   color: rgba(204, 1, 204, 0.5);
   font-weight: 700;
   margin: 10px 0 8px 20px;
@@ -188,7 +183,7 @@ section .container {
   padding: 0;
   color: #fff;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   margin: 0 0 0 68px;
 }
 
@@ -242,4 +237,24 @@ section .container {
   padding: 20px;
   border: 1px solid #c161b2;
   box-sizing: border-box;
+}
+
+p {
+  font-size: 31px;
+}
+
+.edu{
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2{
+  font-size: 27px;
+}
+
+h3{
+  font-size: 24px;
 }
